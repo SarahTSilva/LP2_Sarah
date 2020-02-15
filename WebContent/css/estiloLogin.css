@@ -1,0 +1,30 @@
+#input{
+	width: 200px;
+	height: 40px;
+	border-radius: 10px;
+	font: normal 15pt Arial;
+}
+input{
+	left: 10px;
+}
+
+table{
+	margin: auto;
+	border-spacing: 100px;
+}
+
+#dentro{
+	padding: 5px;
+	width: 10px;
+	height: 60px;
+ 	margin-left: 100px;
+}
+
+#mdentro{
+	padding: 10px;
+	background-color: grey;
+	width: 300px;
+	height: 380px;
+ 	border-radius: 15px;
+ 	margin-left: 600px;
+}

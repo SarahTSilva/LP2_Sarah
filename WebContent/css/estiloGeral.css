@@ -1,0 +1,87 @@
+#logloguinha{
+	border-radius: 100px;
+	width: 150px;
+	height: 130px;
+}
+
+body{
+	background-image: url("back2.jpg");
+ 	font-family: "Times New Roman", Lato, sans-serif;
+ 	padding: 4px;
+ 	overflow: hidden;
+}
+
+section{
+	padding: 10px;
+	background: white;
+	width: 1000px;
+	height: 600px;
+ 	border-radius: 15px;
+ 	box-shadow: 1px 1px 1px 1px #F79F81;
+ 	margin-left: 245px;
+ 	text-align: center;
+}
+
+input{
+	width: 200px;
+	height: 70px;
+	border-radius: 10px;
+	font: normal 15pt Arial;
+}
+#procura{
+	width: 100px;
+	height: 30px;
+}
+button{
+	width: 40px;
+	height: 35px;
+}
+
+#button:hover{
+  color: white;
+  background-color: #F79F81;
+}
+/*
+#F78181 -- rosado+red
+#FA5858 -- vermelhin
+#BE81F7 -- roxin
+#F79F81 -- laranjin
+#FA8258 -- laranjin mais escuro
+#00FF80 -- verde ¬¬
+*/
+
+#button:active{
+  font-color: white;
+   background-color: #FA5858;
+}
+
+.sidenav {
+  height: 100%; /* Full-height: remove this if you want "auto" height */
+  width: 160px; /* Set the width of the sidebar */
+  position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+  z-index: 1; /* Stay on top */
+  top: 0; /* Stay at the top */
+  left: 0;
+  background-color: #111; /* Black */
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 24px;
+}
+
+/* The navigation menu links */
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 24px;
+  color: #818181;
+  display: block;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+/* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
